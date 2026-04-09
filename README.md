@@ -85,10 +85,11 @@ The script generates: latest_analysis.md (This file contains a structured AI-gen
 
 ### Project Structure
 crypto-ai-analyzer/
-├── .env                # (ignored) Secure credentials
-├── .gitignore         # Prevents sensitive files from being committed
-├── data_engine.py     # API interaction + quantitative modeling
-├── prompts.py         # Prompt engineering templates
+
+├── .env                # (ignored) Secure credentials  
+├── .gitignore         # Prevents sensitive files from being committed  
+├── data_engine.py     # API interaction + quantitative modeling  
+├── prompts.py         # Prompt engineering templates  
 ├── main.py            # AI orchestration + fallback logic
 ├── requirements.txt   # Dependencies
 
