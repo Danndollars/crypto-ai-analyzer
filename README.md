@@ -62,15 +62,20 @@ cd crypto-ai-analyzer
 ~~~
 
 ### 2. Install Dependencies
+~~~
 pip install -r requirements.txt
-
+~~~
 (or manually)
+~~~
 pip install requests python-dotenv openai httpx
+~~~
 
 3. Configure Environment Variables
 Create a .env file in the root directory:
+~~~
 COIN_MARKET_CAP_API_KEY=your_cmc_key_here
 OPENROUTER_API_KEY=your_openrouter_key_here
+~~~
 
 ### Usage
 Run the main orchestrator: python main.py
