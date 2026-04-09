@@ -85,42 +85,38 @@ The script generates: latest_analysis.md (This file contains a structured AI-gen
 
 ### Project Structure
 crypto-ai-analyzer/
-│
 ├── .env                # (ignored) Secure credentials
 ├── .gitignore         # Prevents sensitive files from being committed
-│
 ├── data_engine.py     # API interaction + quantitative modeling
 ├── prompts.py         # Prompt engineering templates
 ├── main.py            # AI orchestration + fallback logic
 ├── requirements.txt   # Dependencies
 
 🔒 Security Notes
-- Never commit your .env file
-- Ensure .gitignore includes:
-- .env
-- virtual environments
-- generated reports
+-  Never commit your .env file
+-  Ensure .gitignore includes:
+-  .env
+-  virtual environments
+-  generated reports
+
 
  ### Verification Checklist
 Before running in production:
-✔ API keys are valid and active
-✔ .env is not committed to GitHub
-✔ Model list in main.py includes current free-tier options
-(e.g. google/gemma-4-26b-a4b-it:free)
-✔ Market context reflects realistic values:
-BTC Dominance ≈ 56–60%
-Total Market Cap ≈ $2T–$3T
+-  ✔ API keys are valid and active
+-  ✔ .env is not committed to GitHub
+-  ✔ Model list in main.py includes current free-tier options (e.g. google/gemma-4-26b-a4b-it:free)
+-  ✔ Market context reflects realistic values:BTC Dominance ≈ 56–60%, Total Market Cap ≈ $2T–$3T
 
 ### ⚠️ Disclaimer
-This project is for educational and research purposes only.
-It does not constitute financial advice.
-Always do your own research (DYOR).
+-  This project is for educational and research purposes only.
+-  It does not constitute financial advice.
+-  Always do your own research (DYOR).
 
 ### ⭐ Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ### 💡 Future Improvements
-- Dashboard UI (Streamlit / Next.js)
-- Backtesting engine
-- On-chain data integration
-- Alert system (Telegram / Email)
+-  Dashboard UI (Streamlit / Next.js)
+-  Backtesting engine
+-  On-chain data integration
+-  Alert system (Telegram / Email)
