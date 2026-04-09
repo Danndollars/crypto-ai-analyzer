@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Python junk
+__pycache__/
+*.py[cod]
+
+# Data logs 
+*.json
+
+# Virtual environments
+venv/
+env/
