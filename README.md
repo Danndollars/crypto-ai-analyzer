@@ -93,13 +93,12 @@ crypto-ai-analyzer/
 ├── main.py            # AI orchestration + fallback logic  
 ├── requirements.txt   # Dependencies
 
-🔒 Security Notes
+### 🔒 Security Notes
 -  Never commit your .env file
 -  Ensure .gitignore includes:
 -  .env
 -  virtual environments
 -  generated reports
-
 
  ### Verification Checklist
 Before running in production:
